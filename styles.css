@@ -31,12 +31,11 @@ p{
 #main{
   display: grid;
   grid-template-columns: 58% 42%;
-  grid-template-rows: 15% 85%;
   background: url("images/bg-pattern-desktop.svg") center / cover no-repeat;
 }
 
 .logo{
-  margin: 30px auto auto 100px;
+  margin: 30px auto 80px 100px;
 }
 
 .content{
@@ -47,7 +46,7 @@ p{
 .hero {
   background: url("images/hero-desktop.jpg") center / cover no-repeat;
   height: 100%;
-  padding: 20%;
+  padding: 10%;
 }
 
 .email__text{
@@ -98,14 +97,4 @@ input{
   font-weight: 400;
   position: absolute;
   font-size: 0.9rem;
-}
-
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
