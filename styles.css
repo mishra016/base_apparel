@@ -47,7 +47,7 @@ p{
 .hero {
   background: url("images/hero-desktop.jpg") center / cover no-repeat;
   height: 100%;
-  padding: 15%;
+  padding: 20%;
 }
 
 .email__text{
