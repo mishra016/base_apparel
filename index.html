@@ -25,18 +25,22 @@
         <h1><span class="extra">WE'RE</span> COMING SOON</h1>
         <p>Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
-          <button type="button" name="button">Email Address</button>
-      </div>
-      <div class="footer">
-        <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="#">Your Name Here</a>.
-        </p>
+          <form class="form" action="submit" >
+            <div class="email__text">
+              <input id="email" class="input" type="email" name="email" placeholder="Email Address">
+              <label for="email" class="input__label"></label>
+              <div class="alert">
+                <img src="images/icon-error.svg" alt="error">
+              </div>
+              <button class="submit" >
+                <img src="images/icon-arrow.svg" alt="arrow">
+              </button>
+            </div>
+            <small class="error_msg">Please Provide a Valid Email</small>
+          </form>
       </div>
     </div>
-    <div class="hero">
-      <img src="images/hero-desktop.jpg" alt="hero">
-    </div>
+    <div class="hero"></div>
   </section>
 
 </body>
